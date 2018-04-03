@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement x:Name="player"  AreTransportControlsEnabled="True" 
+              AutoPlay="True" HorizontalAlignment="Left" Height="500" 
+                      Margin="300,280,0,0" VerticalAlignment="Top" Width="900"/>
+
+        <Button Content="＋" Click="Button_Click"  Background="White" HorizontalAlignment="Left" Margin="550,707,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Button Content="■" HorizontalAlignment="Left" Margin="833,707,0,0" Background="White" VerticalAlignment="Top" FontSize="40" Click="Button_Click_2"/>
 
     </Grid>
 </Page>
